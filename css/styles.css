@@ -113,6 +113,16 @@ img {
 --transition-function: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
+:root {
+  --colors-bg-section-fon-lemon:#FFFDEE;
+  --color-title-mimiho-dark: #494848;
+  --color-text-gray: #7A7A7A;
+  --color-contacts-section-text-brown: #C79002;
+  --colors-bg-btn-active: #ffffff;
+  --color-contacts-section-tel-text: #494848;
+  --color-svg-fill-broun: #C79002;
+}
+
 .list {
     list-style: none;
     padding-left: 0;
@@ -124,7 +134,7 @@ img {
 }
   
 .container {
-    min-width: 320px;
+
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
@@ -193,18 +203,13 @@ iframe {
   border: 0.5px solid #F3C653;
   border-radius: 2px;
 }
-.contacts-phones:hover .contacts-item-icon {
-  fill:
-}
 
 .contacts-phones {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
   padding: 9px 8px 7px;
-  
 }
 .contacts-phones-link.first-phone {
   margin-right: 12px;
@@ -259,21 +264,17 @@ iframe {
   height: 100%;
 }
 .contacts-mobile {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+}
 
 @media screen and (max-width: 413px){
   .container {
-   max-width: 320px;
+    max-width: 320px;
   }
   
 }
   
-
-
-
-
 @media screen and (min-width: 414px) {
   .container {
       max-width: 414px;
@@ -364,3 +365,11 @@ iframe {
   }
 }
 
+
+
+/* ======================Готель================= */
+
+.details-hotel {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
