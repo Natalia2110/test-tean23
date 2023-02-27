@@ -1,0 +1,78 @@
+
+
+.container {
+        max-width: 414px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.soc-icon-list {
+    display: none;
+}
+.soc-icon-item {
+    fill:  rgba(243, 198, 83, 0.7);
+}
+.header-phone {
+    display: none;
+}
+.logo {
+    font-family: 'Film P3', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+}
+.header-section .logo {
+    font-size: 36px;
+    line-height: 1.083;
+    color: var(--color-title-mimiho-white);
+    margin-right: 52px;
+}
+.header-nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+.header-nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--color-text-brown);
+    
+}
+.header-nav-tel {
+    display: block;
+    align-items: center;
+    color: var(--color-text-brown);
+    fill: var(--color-text-brown);
+}
+.tel-icon {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width:413px) {
+    .soc-icon-list {
+        display: none;
+    }
+}
+
+@media screen and (min-width:414px) {
+    .container {
+        padding-top: 16px;
+        padding-bottom: 0;
+    }
+    .header-nav-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+   
+   
+}

@@ -17,9 +17,80 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
   </head>
   <body>
-    <section class="section-contacts">
+    <header class="header-section container">
+      <nav class="header-nav">
+        <a href="./index.html" class="logo">MIMIHO</a>
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link">Ресторан</a>
+            <a href="tel:+380955559533" class="header-nav-tel">
+              <svg class="tel-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-fluent_phone-24-regular"></use>
+              </svg>
+              <span class="header-phone">095 555 95 33</span>
+            </a>
+          </li>
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link">Готель</a>
+            <a href="tel:+380668491089" class="header-nav-tel">
+              <svg class="tel-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-fluent_phone-24-regular"></use>
+              </svg>
+              <span class="header-phone">066 849 10 89</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="soc-icon-list">
+        <li class="soc-icon-item">
+          <svg class="soc-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-akar-icons_instagram-fill"></use>
+          </svg>
+        </li>
+        <li class="soc-icon-item">
+          <svg class="soc-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-jam_facebook-square"></use>
+          </svg>
+        </li>
+        <li class="soc-icon-item">
+          <svg class="soc-icon" width="24" height="24">
+            <use href="./img/icons.svg#icon-la_telegram-plane"></use>
+          </svg>
+        </li>
+      </ul>
+    </header>
+    <section class="hero-section">
+      <a href="Marshala Biryuzova St, 15, Poltava, Poltavs'ka oblast, Ukraine, 36000"
+        class="map-location"
+        target="blank"
+        rel="noopener noreferrer nofollow">
+        <svg class="map-location-icon" width="24" height="24">
+          <use href="./img/icons.svg#icon-entypo_location-pin"></use>
+        </svg>
+        <p>Україна, м. Полтава, вул. Маршала Бірюзова, 15</p>
+        <h1 class="hero-section-title">MIMIHO</h1>
+        <h2 class="hero-pre-title">Ресторанно-готельний комплекс</h2>
+        <p class="hero-text">СМАК ЖИТТЯ 24/7</p>
+        <ul class="hero-btn-list">
+          <li class="hero-btn-item">
+            <button>
+              Забронювати столик
+            </button>
+          </li>
+          <li class="hero-btn-item">
+            <button>
+              Забронювати номер
+            </button>
+          </li>
+        </ul>
+      </a>
+    </section>
+    <!-- <section class="section-contacts">
       <h2 class="visually-hidden">Контакти</h2>
       <div class="section-contacts-block container">
         <div class="section-contacts-box">
@@ -80,6 +151,6 @@
           </iframe>
         </div>
       </div>
-    </section>
+    </section> -->
   </body>
 </html>

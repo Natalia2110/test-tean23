@@ -1,0 +1,46 @@
+@media screen and (min-width:1024px) {
+    .container {
+        max-width: 960px;
+        padding-top: 24px;
+    }
+
+    .header-section .logo {
+        font-size: 40px;
+        line-height: 1.075;
+        margin-right: 207px;
+    }
+    .header-nav-link {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .header-nav-list {
+        gap: 72px;
+    }
+    .header-nav-item {
+        gap: 32px;
+    }
+    .header-nav-tel {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        min-width: 144px;
+        max-height: 40px;
+        padding: 8px;
+        border: 1px solid rgba(243, 198, 83, 0.7);
+        border-radius: 2px;
+        
+    }
+
+    .header-phone {
+        display: block;
+        width: 100px;
+        max-height: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.214;
+        letter-spacing: 0.02em;
+        color: var(--color-title-mimiho-white);
+
+    }
+}

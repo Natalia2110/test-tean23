@@ -66,6 +66,28 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-color: cyan;
+}
+
+iframe {
+border-width:0;
+}
 
 
 
@@ -123,32 +145,8 @@ img {
   --color-svg-fill-broun: #C79002;
 }
 
-.list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-}
-  
-.link {
-    text-decoration: none;
-}
-  
-.container {
 
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: cyan;
-}
-
-address {
-  font-style: normal;
-}
-iframe {
-  border-width:0;
-}
-.section-contacts {
+/* .section-contacts {
     background-color: var(--colors-bg-section-fon-lemon);
     padding-top: 36px;
     padding-bottom: 32px;
@@ -286,7 +284,7 @@ iframe {
 }
 
 /* ----------TABLET------------ */
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .container {
       max-width: 960px;
   }
@@ -342,7 +340,7 @@ iframe {
 }
 
 /* ----------DESCTOP------------ */
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .container {
       max-width: 1140px;
   }
@@ -363,13 +361,7 @@ iframe {
     width: 634px;
     
   }
-}
+} */
 
 
 
-/* ======================Готель================= */
-
-.details-hotel {
-  padding-top: 24px;
-  padding-bottom: 40px;
-}
